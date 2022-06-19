@@ -23,7 +23,11 @@ public class Solution {
         }
         return dummyHead;
     }
+<<<<<<< HEAD
+    // 2-> 3-> 4 -> 5->  null
+=======
     // 1-> 2-> 3-> 4 -> null
+>>>>>>> da9129c0d4ab12dd5e744ffbae4ce35351473049
     public static void main(String [] args) {
         ListNode head = new ListNode(2);
         ListNode dummyHead = head;
