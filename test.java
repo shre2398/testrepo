@@ -23,7 +23,7 @@ public class Solution {
         }
         return dummyHead;
     }
-    // 2-> 3-> 4 -> null
+    // 1-> 2-> 3-> 4 -> null
     public static void main(String [] args) {
         ListNode head = new ListNode(2);
         ListNode dummyHead = head;
