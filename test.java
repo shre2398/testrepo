@@ -14,7 +14,7 @@ public class Solution {
         ListNode dummyHead = head;
         ListNode prev = null;
         while(dummyHead.next != null) {
-            // System.out.println("dummyhead value:" + dummyHead.next.value);
+            System.out.println("print dummyhead value:" + dummyHead.next.value);
             ListNode temp = dummyHead.next;
             dummyHead.next = prev;
             prev = dummyHead;
